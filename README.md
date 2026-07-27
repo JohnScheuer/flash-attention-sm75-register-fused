@@ -1,11 +1,12 @@
 # Flash Attention SM75 — Register-Fused Architecture
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![CUDA](https://img.shields.io/badge/CUDA-11.8%2B-76B900?logo=nvidia&logoColor=white)](#)
-[![GPU](https://img.shields.io/badge/GPU-SM75%20(Turing)-orange)](#)
-[![Attention](https://img.shields.io/badge/Attention-Full%20%2B%20Causal-purple)](#)
-[![Status](https://img.shields.io/badge/Status-Research--Grade-informational)](#)
-[![Validated](https://img.shields.io/badge/Validated%20on-RTX%202070-success)](#)
+# Flash Attention SM75 — Register-Fused Architecture
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)]()
+[![CUDA](https://img.shields.io/badge/CUDA-11%2B-green.svg)]()
+[![SM75](https://img.shields.io/badge/SM75-Turing-orange.svg)]()
+[![Peak](https://img.shields.io/badge/Peak-5.0%20TFLOPS-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)]()
 
 A from-scratch Flash Attention implementation for **NVIDIA Turing (SM75)** using CUDA WMMA, warp-shuffle softmax in registers, persistent output accumulators, QK reuse, and causal masking.
 
