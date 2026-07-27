@@ -1,7 +1,5 @@
 # Flash Attention SM75 — Register-Fused Architecture
 
-# Flash Attention SM75 — Register-Fused Architecture
-
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)]()
 [![CUDA](https://img.shields.io/badge/CUDA-11%2B-green.svg)]()
 [![SM75](https://img.shields.io/badge/SM75-Turing-orange.svg)]()
