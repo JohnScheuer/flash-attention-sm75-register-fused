@@ -1,0 +1,127 @@
+# Build outputs
+probe_layout
+test_warp_softmax
+flash_fused
+diagnose
+flash_mha
+flash_reuse_qk
+flash_mha_reuse_qk
+flash_mha_flatargs
+flash_mha_2tiles
+flash_mha_4warp
+flash_mha_v2
+flash_flatargs_r224
+flash_flatargs_r192
+flash_flatargs_r160
+flash_2tiles_r224
+flash_2tiles_r192
+flash_2tiles_r160
+flash_2tiles_r128
+
+# CMake build directory
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+
+# CUDA compilation artifacts
+*.o
+*.ptx
+*.cubin
+*.fatbin
+*.i
+*.ii
+*.gpu
+*.cudafe1.cpp
+*.cudafe1.gpu
+*.cudafe2.cpp
+*.cudafe2.gpu
+*.stub.c
+*.module_id
+*.hash
+*.cpp1.ii
+*.cpp4.ii
+
+# Nsight / profiler output
+*.ncu-rep
+*.nsys-rep
+*.qdrep
+*.qdstrm
+*.nvvp
+*.nvprof
+ncu_*.txt
+nvprof_*.txt
+nsys_*.txt
+*.sqlite
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+.installed.cfg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Benchmark and profile output files
+sdpa_results.txt
+sdpa_results_v2.txt
+sdpa_final_results.txt
+roofline_analysis.txt
+roofline_analysis_v2.txt
+roofline_section_final.txt
+roofline_section_verified.md
+roofline_summary_patch.txt
+ncu_flatargs.txt
+ncu_v2.txt
+ncu_sdpa.txt
+ncu_flatargs_basic.txt
+ncu_sdpa_basic.txt
+build_*.log
+
+# Temporary patch scripts
+patch_readme_roofline.py
+patch_summary_roofline.py
+compute_roofline.py
+compute_roofline_v2.py
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+/tmp/
+*.tmp
+*.bak
+*.orig
+
+# Shared library artifacts
+*.so
+*.a
+*.dylib
